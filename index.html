@@ -1,49 +1,40 @@
 <!DOCTYPE html>
 <html lang="en-ZA">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Lee Emergency Plumbing, Electrical & Property Maintenance | Gauteng</title>
+<title>Lee Emergency Plumbing, Electrical, Waterproofing & Property Maintenance | Gauteng</title>
 
-<meta name="description" content="Lee Emergency Plumbing, Electrical & Property Maintenance provides plumbing, geyser, blocked drain, electrical and property maintenance services across Gauteng. Call 068 868 5355 or WhatsApp us.">
+<meta name="description" content="Lee Emergency Plumbing, Electrical, Waterproofing & Property Maintenance provides plumbing emergencies, geyser services, electrical fault finding, roof waterproofing, leak repairs, damp protection, bathroom waterproofing and property maintenance across Gauteng. Call 068 868 5355.">
 
-<meta name="keywords" content="emergency plumber Gauteng, plumber Johannesburg, plumber Pretoria, plumber Midrand, plumber Centurion, geyser repair, blocked drains, leaking pipes, electrician Gauteng, electrical repairs, property maintenance Gauteng, handyman Gauteng">
+<meta name="keywords" content="emergency plumber Gauteng, plumber Gauteng, plumbing Johannesburg, plumbing Pretoria, electrician Gauteng, electrical repairs Gauteng, waterproofing Gauteng, roof waterproofing Gauteng, roof leak repairs Gauteng, wall waterproofing, bathroom waterproofing, damp proofing Gauteng, balcony waterproofing, geyser repairs Gauteng, property maintenance Gauteng, Lee Emergency Plumbing, Lee Waterproofing">
 
 <meta name="author" content="Lee Emergency Plumbing, Electrical & Property Maintenance">
 <meta name="robots" content="index, follow">
-<meta name="theme-color" content="#e10600">
+<meta name="theme-color" content="#b00000">
 
 <link rel="canonical" href="https://lee-png-maker.github.io/Lee-emergency-plumbing-electric-and-maintenance-/">
 
-<meta property="og:title" content="Lee Emergency Plumbing, Electrical & Property Maintenance">
-<meta property="og:description" content="Emergency plumbing, electrical and property maintenance services across Gauteng.">
+<meta property="og:title" content="Lee Emergency Plumbing, Electrical, Waterproofing & Property Maintenance">
+<meta property="og:description" content="Emergency plumbing, electrical, waterproofing and property maintenance services across Gauteng. Call 068 868 5355.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://lee-png-maker.github.io/Lee-emergency-plumbing-electric-and-maintenance-/">
+<meta property="og:image" content="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80">
 
 <style>
 
-/* =====================================================
-   LEE EMERGENCY PLUMBING, ELECTRICAL
-   & PROPERTY MAINTENANCE
-   ALL CSS IS INCLUDED IN THIS FILE
-   ===================================================== */
-
 :root{
-    --red:#e10600;
-    --red2:#ff2d26;
-    --darkred:#a90000;
-    --black:#050505;
-    --black2:#0d0d0d;
+    --red:#b00000;
+    --dark-red:#780000;
+    --black:#090909;
     --dark:#151515;
-    --dark2:#1d1d1d;
-    --white:#fff;
-    --gray:#aaa;
-    --light:#f5f5f5;
-    --border:#303030;
-    --green:#25D366;
-    --shadow:0 18px 50px rgba(0,0,0,.4);
+    --grey:#f3f3f3;
+    --white:#ffffff;
+    --text:#222;
+    --muted:#666;
+    --border:#dddddd;
+    --shadow:0 10px 30px rgba(0,0,0,.12);
 }
 
 *{
@@ -57,15 +48,10 @@ html{
 }
 
 body{
-    font-family:Arial,Helvetica,sans-serif;
-    background:var(--black);
-    color:var(--white);
+    font-family:Arial, Helvetica, sans-serif;
+    color:var(--text);
+    background:#fff;
     line-height:1.6;
-}
-
-img{
-    width:100%;
-    display:block;
 }
 
 a{
@@ -73,8 +59,9 @@ a{
     color:inherit;
 }
 
-button{
-    font-family:inherit;
+img{
+    width:100%;
+    display:block;
 }
 
 .container{
@@ -82,29 +69,26 @@ button{
     margin:auto;
 }
 
-/* ================= TOP BAR ================= */
+/* TOP BAR */
 
 .topbar{
     background:var(--red);
+    color:#fff;
     text-align:center;
     padding:10px 15px;
+    font-weight:bold;
     font-size:14px;
-    font-weight:900;
 }
 
-.topbar a{
-    text-decoration:underline;
-}
-
-/* ================= HEADER ================= */
+/* HEADER */
 
 header{
+    background:#090909;
+    color:#fff;
     position:sticky;
     top:0;
     z-index:999;
-    background:rgba(5,5,5,.97);
-    border-bottom:1px solid #292929;
-    backdrop-filter:blur(12px);
+    box-shadow:0 3px 15px rgba(0,0,0,.3);
 }
 
 .nav{
@@ -112,154 +96,107 @@ header{
     display:flex;
     align-items:center;
     justify-content:space-between;
+    gap:20px;
 }
 
 .logo{
-    display:flex;
-    align-items:center;
-    gap:12px;
-}
-
-.logo-icon{
-    width:48px;
-    height:48px;
-    background:var(--red);
-    border-radius:12px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:25px;
-    font-weight:1000;
-}
-
-.logo-text strong{
-    display:block;
-    font-size:17px;
+    font-size:19px;
+    font-weight:900;
     line-height:1.1;
+    letter-spacing:.4px;
 }
 
-.logo-text small{
+.logo span{
+    color:#ff2020;
+}
+
+.logo small{
     display:block;
-    color:#999;
-    font-size:9px;
-    letter-spacing:1px;
+    font-size:10px;
+    color:#ddd;
     margin-top:5px;
+    letter-spacing:1px;
 }
 
-.nav-links{
+nav{
     display:flex;
     align-items:center;
-    gap:22px;
+    gap:20px;
 }
 
-.nav-links a{
+nav a{
+    color:#fff;
     font-size:14px;
-    font-weight:800;
-    color:#ddd;
+    font-weight:bold;
+    transition:.2s;
 }
 
-.nav-links a:hover{
-    color:#ff4d47;
+nav a:hover{
+    color:#ff2b2b;
 }
 
 .nav-call{
     background:var(--red);
-    padding:11px 16px;
-    border-radius:9px;
-    color:white!important;
+    padding:10px 15px;
+    border-radius:7px;
 }
 
-.menu{
+.menu-btn{
     display:none;
-    width:45px;
-    height:45px;
-    background:#151515;
-    color:white;
-    border:1px solid #444;
-    border-radius:9px;
-    font-size:23px;
+    background:none;
+    border:0;
+    color:#fff;
+    font-size:30px;
     cursor:pointer;
 }
 
-/* ================= HERO ================= */
+/* HERO */
 
 .hero{
-    min-height:690px;
+    background:
+    linear-gradient(rgba(0,0,0,.78),rgba(0,0,0,.78)),
+    url("https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1800&q=85")
+    center/cover no-repeat;
+    color:#fff;
+    min-height:650px;
     display:flex;
     align-items:center;
-    position:relative;
-    overflow:hidden;
-
-    background:
-        linear-gradient(
-            90deg,
-            rgba(0,0,0,.96) 0%,
-            rgba(0,0,0,.86) 42%,
-            rgba(0,0,0,.45) 100%
-        ),
-        url("https://images.pexels.com/photos/32588548/pexels-photo-32588548.jpeg?auto=compress&cs=tinysrgb&w=1800");
-
-    background-size:cover;
-    background-position:center;
-}
-
-.hero:after{
-    content:"";
-    position:absolute;
-    bottom:0;
-    left:0;
-    right:0;
-    height:7px;
-    background:var(--red);
 }
 
 .hero-content{
-    max-width:800px;
-    padding:80px 0;
-    position:relative;
-    z-index:2;
+    max-width:850px;
+    padding:70px 0;
 }
 
 .badge{
-    display:inline-flex;
-    align-items:center;
-    gap:8px;
-    border:1px solid rgba(255,50,40,.7);
-    background:rgba(225,6,0,.16);
-    padding:9px 14px;
-    border-radius:999px;
-    color:#ff817b;
-    font-weight:900;
-    font-size:12px;
-    margin-bottom:22px;
-}
-
-.dot{
-    width:9px;
-    height:9px;
-    background:#ff3029;
-    border-radius:50%;
+    display:inline-block;
+    background:var(--red);
+    color:#fff;
+    padding:8px 14px;
+    border-radius:50px;
+    font-size:13px;
+    font-weight:bold;
+    margin-bottom:20px;
 }
 
 .hero h1{
-    font-size:clamp(40px,6vw,72px);
-    line-height:1;
-    letter-spacing:-2px;
+    font-size:clamp(38px,6vw,68px);
+    line-height:1.03;
     margin-bottom:22px;
 }
 
 .hero h1 span{
-    color:var(--red2);
+    color:#ff2525;
 }
 
 .hero p{
-    color:#ddd;
-    font-size:18px;
-    max-width:700px;
+    font-size:19px;
+    color:#eee;
+    max-width:760px;
     margin-bottom:30px;
 }
 
-.buttons{
+.hero-buttons{
     display:flex;
     flex-wrap:wrap;
     gap:12px;
@@ -270,352 +207,324 @@ header{
     align-items:center;
     justify-content:center;
     gap:8px;
-    padding:15px 21px;
-    border-radius:10px;
-    font-weight:900;
+    padding:14px 22px;
+    border-radius:7px;
+    font-weight:bold;
     border:2px solid transparent;
     transition:.2s;
 }
 
 .btn-red{
     background:var(--red);
-    color:white;
+    color:#fff;
 }
 
 .btn-red:hover{
-    background:var(--red2);
-    transform:translateY(-2px);
-}
-
-.btn-white{
-    background:white;
-    color:#111;
-}
-
-.btn-white:hover{
-    background:#ddd;
+    background:#d00000;
     transform:translateY(-2px);
 }
 
 .btn-outline{
-    border-color:#555;
-    color:white;
+    border-color:#fff;
+    color:#fff;
 }
 
 .btn-outline:hover{
-    border-color:var(--red);
-    color:#ff5c55;
+    background:#fff;
+    color:#111;
 }
 
-.hero-info{
-    margin-top:40px;
+.btn-whatsapp{
+    background:#168c3a;
+    color:#fff;
+}
+
+.btn-whatsapp:hover{
+    background:#11722f;
+}
+
+/* QUICK SERVICES */
+
+.quick{
+    background:#111;
+    color:#fff;
+    padding:20px 0;
+}
+
+.quick-grid{
     display:grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(4,1fr);
     gap:12px;
 }
 
-.hero-info-box{
-    background:rgba(10,10,10,.75);
-    border:1px solid #333;
-    border-radius:12px;
+.quick-item{
+    text-align:center;
     padding:15px;
+    border:1px solid #333;
+    border-radius:8px;
 }
 
-.hero-info-box strong{
+.quick-item strong{
     display:block;
-    color:#ff514b;
-    font-size:19px;
+    font-size:15px;
 }
 
-.hero-info-box small{
-    color:#aaa;
+.quick-item span{
+    color:#bbb;
+    font-size:12px;
 }
 
-/* ================= GENERAL ================= */
+/* SECTIONS */
 
 section{
-    padding:85px 0;
+    padding:80px 0;
 }
 
-.section-heading{
-    max-width:750px;
-    margin-bottom:42px;
+.section-head{
+    text-align:center;
+    max-width:760px;
+    margin:0 auto 45px;
 }
 
-.tag{
-    color:#ff514b;
-    font-size:12px;
-    font-weight:1000;
-    letter-spacing:1.5px;
+.section-head .eyebrow{
+    color:var(--red);
+    font-weight:900;
     text-transform:uppercase;
-    margin-bottom:9px;
+    font-size:13px;
+    letter-spacing:1.5px;
 }
 
-.section-heading h2{
-    font-size:clamp(30px,4vw,48px);
+.section-head h2{
+    font-size:clamp(30px,4vw,45px);
     line-height:1.1;
-    margin-bottom:14px;
+    margin:10px 0 15px;
 }
 
-.section-heading p{
-    color:#aaa;
-    font-size:17px;
+.section-head p{
+    color:var(--muted);
 }
 
-/* ================= SERVICE CATEGORY ================= */
+/* SERVICE CATEGORY */
+
+.category{
+    margin-bottom:70px;
+}
 
 .category-title{
     display:flex;
     align-items:center;
     gap:12px;
-    margin:65px 0 25px;
+    margin-bottom:25px;
 }
 
-.category-title:first-child{
-    margin-top:0;
-}
-
-.category-icon{
-    width:50px;
-    height:50px;
-    border-radius:12px;
+.category-title .icon{
+    width:48px;
+    height:48px;
     background:var(--red);
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    color:#fff;
+    border-radius:10px;
+    display:grid;
+    place-items:center;
     font-size:24px;
 }
 
 .category-title h3{
-    font-size:28px;
+    font-size:27px;
 }
 
 .category-title p{
-    color:#888;
-    font-size:13px;
+    color:#777;
+    font-size:14px;
 }
 
-/* ================= SERVICES ================= */
-
-.services{
-    background:#0b0b0b;
-}
-
-.service-grid{
+.services-grid{
     display:grid;
     grid-template-columns:repeat(3,1fr);
-    gap:20px;
+    gap:22px;
 }
 
 .service-card{
-    background:#151515;
-    border:1px solid #2e2e2e;
-    border-radius:16px;
+    background:#fff;
+    border:1px solid var(--border);
+    border-radius:12px;
     overflow:hidden;
+    box-shadow:var(--shadow);
     transition:.25s;
 }
 
 .service-card:hover{
-    transform:translateY(-6px);
-    border-color:var(--red);
-    box-shadow:var(--shadow);
+    transform:translateY(-5px);
 }
 
-.service-photo{
+.service-card img{
     height:210px;
-    overflow:hidden;
-}
-
-.service-photo img{
-    height:100%;
     object-fit:cover;
-    transition:.4s;
-}
-
-.service-card:hover .service-photo img{
-    transform:scale(1.06);
 }
 
 .service-body{
     padding:22px;
 }
 
-.service-icon{
-    width:45px;
-    height:45px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background:var(--red);
-    border-radius:11px;
-    font-size:21px;
-    margin-bottom:14px;
-}
-
 .service-body h4{
     font-size:20px;
-    margin-bottom:8px;
+    margin-bottom:9px;
 }
 
 .service-body p{
-    color:#999;
+    color:#666;
     font-size:14px;
-    margin-bottom:15px;
+    margin-bottom:17px;
 }
 
 .service-link{
-    color:#ff5751;
-    font-weight:900;
+    color:var(--red);
+    font-weight:bold;
     font-size:14px;
 }
 
-/* ================= CATEGORY STRIP ================= */
+/* WATERPROOFING SPECIAL */
 
-.category-strip{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:18px;
-    margin-bottom:50px;
+.waterproofing-section{
+    background:
+    linear-gradient(rgba(0,0,0,.82),rgba(0,0,0,.82)),
+    url("https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=1800&q=85")
+    center/cover no-repeat;
+    color:#fff;
 }
 
-.category-box{
-    min-height:170px;
-    border-radius:15px;
-    overflow:hidden;
-    position:relative;
-    border:1px solid #333;
-}
-
-.category-box img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    position:absolute;
-    inset:0;
-}
-
-.category-box:after{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:linear-gradient(transparent,rgba(0,0,0,.9));
-}
-
-.category-box-content{
-    position:absolute;
-    z-index:2;
-    bottom:20px;
-    left:20px;
-}
-
-.category-box-content strong{
-    font-size:23px;
-}
-
-.category-box-content small{
-    display:block;
+.waterproofing-section .section-head p{
     color:#ddd;
 }
 
-/* ================= GALLERY ================= */
+.waterproofing-intro{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:35px;
+    align-items:center;
+}
+
+.waterproofing-image{
+    border-radius:14px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,.4);
+}
+
+.waterproofing-image img{
+    height:430px;
+    object-fit:cover;
+}
+
+.waterproofing-content h3{
+    font-size:34px;
+    margin-bottom:15px;
+}
+
+.waterproofing-content p{
+    color:#ddd;
+    margin-bottom:20px;
+}
+
+.waterproofing-list{
+    list-style:none;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+    margin-bottom:25px;
+}
+
+.waterproofing-list li{
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.15);
+    padding:11px;
+    border-radius:7px;
+    font-size:14px;
+}
+
+.waterproofing-list li::before{
+    content:"✓";
+    color:#ff3030;
+    font-weight:bold;
+    margin-right:8px;
+}
+
+/* GALLERY */
 
 .gallery{
-    background:#070707;
-}
-
-.gallery-section{
-    margin-bottom:70px;
-}
-
-.gallery-section:last-child{
-    margin-bottom:0;
-}
-
-.gallery-heading{
-    border-left:5px solid var(--red);
-    padding-left:15px;
-    margin-bottom:22px;
-}
-
-.gallery-heading h3{
-    font-size:28px;
-}
-
-.gallery-heading p{
-    color:#999;
+    background:#f6f6f6;
 }
 
 .gallery-grid{
     display:grid;
     grid-template-columns:repeat(3,1fr);
-    gap:15px;
+    gap:18px;
 }
 
 .gallery-item{
-    height:260px;
-    border-radius:14px;
-    overflow:hidden;
     position:relative;
-    border:1px solid #2d2d2d;
+    overflow:hidden;
+    border-radius:10px;
+    background:#111;
 }
 
 .gallery-item img{
-    height:100%;
+    height:240px;
     object-fit:cover;
-    transition:.45s;
+    transition:.3s;
 }
 
 .gallery-item:hover img{
-    transform:scale(1.08);
+    transform:scale(1.05);
 }
 
-.gallery-caption{
+.gallery-label{
     position:absolute;
     bottom:0;
     left:0;
     right:0;
-    padding:45px 17px 16px;
     background:linear-gradient(transparent,rgba(0,0,0,.9));
+    color:#fff;
+    padding:40px 15px 15px;
+    font-weight:bold;
 }
 
-.gallery-caption strong{
-    font-size:17px;
-}
-
-/* ================= EMERGENCY ================= */
+/* EMERGENCY */
 
 .emergency{
-    background:
-        linear-gradient(
-            90deg,
-            rgba(225,6,0,.97),
-            rgba(130,0,0,.93)
-        );
+    background:var(--red);
+    color:#fff;
 }
 
-.emergency-box{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
+.emergency-inner{
+    display:grid;
+    grid-template-columns:1.5fr 1fr;
     gap:30px;
+    align-items:center;
 }
 
 .emergency h2{
-    font-size:clamp(30px,4vw,48px);
+    font-size:clamp(30px,4vw,45px);
     line-height:1.1;
-    margin-bottom:10px;
+    margin-bottom:15px;
 }
 
 .emergency p{
-    color:#ffe2e2;
-    max-width:700px;
+    color:#ffeaea;
 }
 
-/* ================= ABOUT ================= */
-
-.about{
-    background:#111;
+.emergency-box{
+    background:#fff;
+    color:#111;
+    padding:28px;
+    border-radius:12px;
 }
+
+.emergency-box strong{
+    display:block;
+    font-size:25px;
+    margin-bottom:10px;
+}
+
+/* ABOUT */
 
 .about-grid{
     display:grid;
@@ -625,49 +534,45 @@ section{
 }
 
 .about-image{
-    min-height:500px;
+    border-radius:14px;
     overflow:hidden;
-    border-radius:20px;
-    border:1px solid #333;
-    box-shadow:var(--shadow);
 }
 
 .about-image img{
-    height:100%;
-    min-height:500px;
+    height:450px;
     object-fit:cover;
 }
 
 .about-text h2{
-    font-size:clamp(30px,4vw,46px);
+    font-size:40px;
     line-height:1.1;
+    margin-bottom:18px;
 }
 
 .about-text p{
-    color:#aaa;
-    margin:15px 0;
+    color:#666;
+    margin-bottom:18px;
 }
 
 .check-list{
     list-style:none;
-    margin:25px 0;
 }
 
 .check-list li{
-    margin:11px 0;
-    color:#ddd;
+    margin:10px 0;
+    font-weight:bold;
 }
 
-.check{
-    color:#ff514b;
-    font-weight:900;
-    margin-right:8px;
+.check-list li::before{
+    content:"✓";
+    color:var(--red);
+    margin-right:10px;
 }
 
-/* ================= WHY ================= */
+/* WHY */
 
 .why{
-    background:#080808;
+    background:#f6f6f6;
 }
 
 .why-grid{
@@ -677,283 +582,245 @@ section{
 }
 
 .why-card{
-    background:#151515;
-    border:1px solid #2d2d2d;
-    border-radius:15px;
-    padding:27px 22px;
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    border:1px solid #ddd;
 }
 
-.why-number{
+.why-card .number{
     color:var(--red);
-    font-size:29px;
-    font-weight:1000;
-    margin-bottom:12px;
+    font-size:14px;
+    font-weight:900;
 }
 
 .why-card h3{
-    margin-bottom:8px;
+    margin:8px 0;
 }
 
 .why-card p{
-    color:#999;
+    color:#666;
     font-size:14px;
 }
 
-/* ================= PROCESS ================= */
-
-.process{
-    background:#101010;
-}
+/* PROCESS */
 
 .process-grid{
     display:grid;
     grid-template-columns:repeat(4,1fr);
-    gap:18px;
+    gap:20px;
 }
 
-.step{
-    background:#171717;
-    border:1px solid #303030;
-    padding:27px;
-    border-radius:15px;
+.process-card{
+    text-align:center;
 }
 
-.step-number{
-    width:44px;
-    height:44px;
-    background:var(--red);
+.process-number{
+    width:50px;
+    height:50px;
     border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-weight:1000;
-    margin-bottom:17px;
+    background:var(--red);
+    color:#fff;
+    display:grid;
+    place-items:center;
+    margin:0 auto 15px;
+    font-weight:900;
 }
 
-.step p{
-    color:#999;
+.process-card h3{
+    margin-bottom:8px;
+}
+
+.process-card p{
+    color:#666;
     font-size:14px;
 }
 
-/* ================= AREAS ================= */
+/* AREAS */
 
 .areas{
-    background:#090909;
+    background:#111;
+    color:#fff;
 }
 
-.area-list{
+.area-tags{
     display:flex;
     flex-wrap:wrap;
     gap:10px;
+    justify-content:center;
+    margin-top:30px;
 }
 
-.area{
-    background:#151515;
-    border:1px solid #333;
-    padding:11px 16px;
-    border-radius:999px;
+.area-tag{
+    border:1px solid #444;
+    padding:9px 14px;
+    border-radius:50px;
     color:#ddd;
-    font-size:14px;
-    font-weight:700;
 }
 
-.area:hover{
-    border-color:var(--red);
-}
-
-/* ================= FAQ ================= */
+/* FAQ */
 
 .faq{
-    background:#111;
-}
-
-.faq-list{
     max-width:850px;
-}
-
-details{
-    background:#171717;
-    border:1px solid #303030;
-    border-radius:12px;
-    margin-bottom:12px;
-}
-
-summary{
-    padding:19px;
-    cursor:pointer;
-    font-weight:900;
-    list-style:none;
-}
-
-summary::-webkit-details-marker{
-    display:none;
-}
-
-summary:after{
-    content:"+";
-    float:right;
-    color:#ff514b;
-    font-size:22px;
-}
-
-details[open] summary:after{
-    content:"−";
-}
-
-details p{
-    color:#aaa;
-    padding:0 19px 20px;
-}
-
-/* ================= CTA ================= */
-
-.cta{
-    background:
-        linear-gradient(135deg,#1c0000,#080808);
-    border-top:1px solid #390000;
-    border-bottom:1px solid #390000;
-}
-
-.cta-box{
-    text-align:center;
-    max-width:800px;
     margin:auto;
 }
 
-.cta h2{
+details{
+    border:1px solid #ddd;
+    margin-bottom:12px;
+    border-radius:8px;
+    padding:0 18px;
+    background:#fff;
+}
+
+summary{
+    cursor:pointer;
+    font-weight:bold;
+    padding:18px 0;
+}
+
+details p{
+    color:#666;
+    padding:0 0 18px;
+}
+
+/* CTA */
+
+.final-cta{
+    background:
+    linear-gradient(rgba(0,0,0,.84),rgba(0,0,0,.84)),
+    url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1800&q=85")
+    center/cover no-repeat;
+    color:#fff;
+    text-align:center;
+}
+
+.final-cta h2{
     font-size:clamp(32px,5vw,55px);
-    line-height:1.05;
+    line-height:1.1;
     margin-bottom:15px;
 }
 
-.cta p{
-    color:#aaa;
-    margin-bottom:25px;
+.final-cta p{
+    color:#ddd;
+    max-width:700px;
+    margin:0 auto 25px;
 }
 
-/* ================= FOOTER ================= */
+/* FOOTER */
 
 footer{
     background:#050505;
+    color:#fff;
     padding:55px 0 25px;
 }
 
 .footer-grid{
     display:grid;
-    grid-template-columns:2fr 1fr 1fr;
+    grid-template-columns:1.5fr 1fr 1fr;
     gap:40px;
-    padding-bottom:35px;
-}
-
-.footer-brand p{
-    color:#888;
-    max-width:500px;
-    margin-top:15px;
+    margin-bottom:35px;
 }
 
 footer h3{
     margin-bottom:15px;
 }
 
-.footer-links{
+footer p,
+footer li{
+    color:#aaa;
+    font-size:14px;
+}
+
+footer ul{
     list-style:none;
 }
 
-.footer-links li{
-    margin:9px 0;
+footer li{
+    margin:8px 0;
 }
 
-.footer-links a{
-    color:#999;
-}
-
-.footer-links a:hover{
-    color:#ff514b;
+footer a:hover{
+    color:#fff;
 }
 
 .footer-bottom{
     border-top:1px solid #222;
     padding-top:20px;
-    display:flex;
-    justify-content:space-between;
-    gap:20px;
-    color:#666;
+    text-align:center;
+    color:#777;
     font-size:13px;
 }
 
-/* ================= WHATSAPP ================= */
+/* FLOATING WHATSAPP */
 
-.whatsapp{
+.whatsapp-float{
     position:fixed;
-    right:20px;
-    bottom:20px;
-    width:62px;
-    height:62px;
-    background:#25D366;
+    right:18px;
+    bottom:18px;
+    width:58px;
+    height:58px;
+    background:#1db954;
+    color:#fff;
     border-radius:50%;
+    display:grid;
+    place-items:center;
+    font-size:28px;
     z-index:1000;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    box-shadow:0 8px 25px rgba(0,0,0,.5);
+    box-shadow:0 5px 20px rgba(0,0,0,.3);
 }
 
-.whatsapp svg{
-    width:34px;
-    height:34px;
-    fill:white;
-}
+/* MOBILE */
 
-/* ================= MOBILE ================= */
+@media(max-width:900px){
 
-@media(max-width:950px){
-
-    .menu{
-        display:block;
-    }
-
-    .nav-links{
+    nav{
         position:absolute;
-        top:76px;
         left:0;
         right:0;
+        top:76px;
+        background:#090909;
         display:none;
         flex-direction:column;
         align-items:stretch;
-        background:#090909;
-        padding:15px 20px 20px;
-        border-bottom:1px solid #333;
+        padding:15px;
+        border-top:1px solid #333;
     }
 
-    .nav-links.active{
+    nav.show{
         display:flex;
     }
 
-    .nav-links a{
-        padding:12px;
+    nav a{
+        padding:12px 5px;
         border-bottom:1px solid #222;
     }
 
-    .service-grid{
-        grid-template-columns:repeat(2,1fr);
+    .menu-btn{
+        display:block;
     }
 
-    .category-strip{
-        grid-template-columns:1fr;
+    .quick-grid{
+        grid-template-columns:1fr 1fr;
     }
 
-    .about-grid{
-        grid-template-columns:1fr;
+    .services-grid,
+    .gallery-grid{
+        grid-template-columns:1fr 1fr;
     }
 
-    .why-grid,
+    .why-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
     .process-grid{
-        grid-template-columns:repeat(2,1fr);
+        grid-template-columns:1fr 1fr;
     }
 
-    .emergency-box{
-        flex-direction:column;
-        align-items:flex-start;
+    .waterproofing-intro,
+    .about-grid,
+    .emergency-inner{
+        grid-template-columns:1fr;
     }
 
     .footer-grid{
@@ -961,162 +828,101 @@ footer h3{
     }
 }
 
-@media(max-width:650px){
+@media(max-width:600px){
 
-    .topbar{
-        font-size:11px;
+    section{
+        padding:60px 0;
     }
 
-    .logo-text strong{
-        font-size:14px;
+    .logo{
+        font-size:15px;
     }
 
-    .logo-text small{
-        font-size:7px;
-    }
-
-    .logo-icon{
-        width:42px;
-        height:42px;
+    .logo small{
+        font-size:8px;
     }
 
     .hero{
-        min-height:680px;
+        min-height:620px;
     }
 
     .hero h1{
         font-size:42px;
-        letter-spacing:-1px;
     }
 
     .hero p{
         font-size:16px;
     }
 
-    .hero-info{
-        grid-template-columns:1fr;
-    }
-
-    section{
-        padding:65px 0;
-    }
-
-    .service-grid,
-    .gallery-grid,
-    .why-grid,
-    .process-grid{
-        grid-template-columns:1fr;
-    }
-
-    .gallery-item{
-        height:245px;
-    }
-
-    .about-image,
-    .about-image img{
-        min-height:340px;
-    }
-
-    .footer-grid{
-        grid-template-columns:1fr;
-    }
-
-    .footer-bottom{
+    .hero-buttons{
         flex-direction:column;
-    }
-
-    .buttons{
-        width:100%;
     }
 
     .btn{
         width:100%;
     }
 
-    .whatsapp{
-        width:58px;
-        height:58px;
-        right:15px;
-        bottom:15px;
+    .quick-grid,
+    .services-grid,
+    .gallery-grid,
+    .why-grid,
+    .process-grid,
+    .footer-grid{
+        grid-template-columns:1fr;
+    }
+
+    .waterproofing-list{
+        grid-template-columns:1fr;
+    }
+
+    .waterproofing-image img{
+        height:300px;
+    }
+
+    .about-image img{
+        height:320px;
     }
 }
 
 </style>
-
-<!-- SEO STRUCTURED DATA -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"LocalBusiness",
-  "name":"Lee Emergency Plumbing, Electrical & Property Maintenance",
-  "url":"https://lee-png-maker.github.io/Lee-emergency-plumbing-electric-and-maintenance-/",
-  "telephone":"+27688685355",
-  "description":"Emergency plumbing, electrical and property maintenance services across Gauteng.",
-  "areaServed":[
-    "Johannesburg",
-    "Pretoria",
-    "Midrand",
-    "Centurion",
-    "Ekurhuleni",
-    "Gauteng"
-  ],
-  "serviceType":[
-    "Emergency Plumbing",
-    "Geyser Services",
-    "Blocked Drains",
-    "Leak Repairs",
-    "Electrical Services",
-    "Electrical Fault Finding",
-    "Property Maintenance",
-    "Handyman Services"
-  ]
-}
-</script>
-
 </head>
 
 <body>
 
-
-<!-- ================= TOP BAR ================= -->
+<!-- TOP EMERGENCY BAR -->
 
 <div class="topbar">
-    🚨 EMERGENCY PROPERTY SERVICES —
-    <a href="tel:+27688685355">CALL 068 868 5355</a>
+🚨 EMERGENCY PROPERTY SERVICES — CALL 068 868 5355
 </div>
 
-
-<!-- ================= HEADER ================= -->
+<!-- HEADER -->
 
 <header>
 
 <div class="container nav">
 
 <a href="#home" class="logo">
-
-    <div class="logo-icon">L</div>
-
-    <div class="logo-text">
-        <strong>LEE EMERGENCY</strong>
-        <small>PLUMBING • ELECTRICAL • PROPERTY MAINTENANCE</small>
-    </div>
-
+LEE <span>EMERGENCY</span>
+<small>PLUMBING • ELECTRICAL • WATERPROOFING • PROPERTY MAINTENANCE</small>
 </a>
 
-<button class="menu" onclick="toggleMenu()">☰</button>
+<button class="menu-btn" onclick="toggleMenu()" aria-label="Open menu">
+☰
+</button>
 
-<nav class="nav-links" id="navLinks">
+<nav id="mainNav">
 
-    <a href="#home" onclick="closeMenu()">Home</a>
-    <a href="#services" onclick="closeMenu()">Services</a>
-    <a href="#gallery" onclick="closeMenu()">Gallery</a>
-    <a href="#about" onclick="closeMenu()">About</a>
-    <a href="#areas" onclick="closeMenu()">Areas</a>
-    <a href="#faq" onclick="closeMenu()">FAQ</a>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#waterproofing">Waterproofing</a>
+<a href="#gallery">Gallery</a>
+<a href="#about">About</a>
+<a href="#areas">Areas</a>
+<a href="#faq">FAQ</a>
 
-    <a class="nav-call" href="tel:+27688685355">
-        📞 Call Now
-    </a>
+<a class="nav-call" href="tel:+27688685355">
+📞 Call Now
+</a>
 
 </nav>
 
@@ -1125,7 +931,7 @@ footer h3{
 </header>
 
 
-<!-- ================= HERO ================= -->
+<!-- HERO -->
 
 <section class="hero" id="home">
 
@@ -1134,52 +940,34 @@ footer h3{
 <div class="hero-content">
 
 <div class="badge">
-    <span class="dot"></span>
-    EMERGENCY PLUMBING • ELECTRICAL • MAINTENANCE
+24/7 EMERGENCY SERVICE ENQUIRIES
 </div>
 
 <h1>
-    Emergency <span>Plumbing</span>,
-    Electrical & Property Maintenance
+Emergency Plumbing, Electrical, <span>Waterproofing</span> & Property Maintenance
 </h1>
 
 <p>
-    Practical assistance for plumbing emergencies, geysers,
-    blocked drains, electrical faults and property maintenance
-    across Gauteng.
+Practical assistance for plumbing emergencies, geysers, blocked drains,
+electrical faults, roof leaks, waterproofing, damp problems and general
+property maintenance across selected areas of Gauteng.
 </p>
 
-<div class="buttons">
+<div class="hero-buttons">
 
 <a class="btn btn-red" href="tel:+27688685355">
-    📞 Call 068 868 5355
+📞 Call 068 868 5355
 </a>
 
-<a class="btn btn-white"
-href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20assistance."
+<a class="btn btn-whatsapp"
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20a%20service%20at%20my%20property."
 target="_blank">
-    💬 WhatsApp Us
+💬 WhatsApp Us
 </a>
 
-</div>
-
-
-<div class="hero-info">
-
-<div class="hero-info-box">
-    <strong>🔧 Plumbing</strong>
-    <small>Leaks, pipes, drains & geysers</small>
-</div>
-
-<div class="hero-info-box">
-    <strong>⚡ Electrical</strong>
-    <small>Faults, wiring & maintenance</small>
-</div>
-
-<div class="hero-info-box">
-    <strong>🏠 Property</strong>
-    <small>Repairs & maintenance</small>
-</div>
+<a class="btn btn-outline" href="#services">
+View Services →
+</a>
 
 </div>
 
@@ -1190,116 +978,91 @@ target="_blank">
 </section>
 
 
-<!-- ================= SERVICES ================= -->
+<!-- QUICK SERVICES -->
 
-<section class="services" id="services">
+<div class="quick">
+
+<div class="container quick-grid">
+
+<div class="quick-item">
+<strong>🔧 Plumbing</strong>
+<span>Leaks • Pipes • Geysers • Drains</span>
+</div>
+
+<div class="quick-item">
+<strong>⚡ Electrical</strong>
+<span>Faults • Wiring • Maintenance</span>
+</div>
+
+<div class="quick-item">
+<strong>💧 Waterproofing</strong>
+<span>Roofs • Walls • Bathrooms • Leaks</span>
+</div>
+
+<div class="quick-item">
+<strong>🏠 Property</strong>
+<span>Repairs • Maintenance • Handyman</span>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- SERVICES -->
+
+<section id="services">
 
 <div class="container">
 
-<div class="section-heading">
+<div class="section-head">
 
-<div class="tag">Our Services</div>
+<div class="eyebrow">Our Services</div>
 
-<h2>Three Main Service Categories</h2>
+<h2>Professional Property Services</h2>
 
 <p>
-    Lee provides plumbing, electrical and property maintenance
-    services. Each service category now has its own relevant
-    imagery and dedicated gallery.
+One contact for plumbing, electrical, waterproofing and property
+maintenance enquiries.
 </p>
 
 </div>
 
 
-<!-- CATEGORY PREVIEW -->
+<!-- PLUMBING -->
 
-<div class="category-strip">
-
-<div class="category-box">
-
-<img
-src="https://images.pexels.com/photos/32588548/pexels-photo-32588548.jpeg?auto=compress&cs=tinysrgb&w=1000"
-alt="Plumber repairing pipe">
-
-<div class="category-box-content">
-<strong>🔧 Plumbing</strong>
-<small>Pipes • Geysers • Drains • Leaks</small>
-</div>
-
-</div>
-
-
-<div class="category-box">
-
-<img
-src="https://images.pexels.com/photos/27928761/pexels-photo-27928761.jpeg?auto=compress&cs=tinysrgb&w=1000"
-alt="Electrician working on electrical panel">
-
-<div class="category-box-content">
-<strong>⚡ Electrical</strong>
-<small>Panels • Wiring • Faults • Maintenance</small>
-</div>
-
-</div>
-
-
-<div class="category-box">
-
-<img
-src="https://images.pexels.com/photos/5691668/pexels-photo-5691668.jpeg?auto=compress&cs=tinysrgb&w=1000"
-alt="Handyman repairing property">
-
-<div class="category-box-content">
-<strong>🏠 Property Maintenance</strong>
-<small>Repairs • Renovations • Handyman Work</small>
-</div>
-
-</div>
-
-</div>
-
-
-<!-- ================= PLUMBING SERVICES ================= -->
+<div class="category">
 
 <div class="category-title">
 
-<div class="category-icon">🔧</div>
+<div class="icon">🔧</div>
 
 <div>
 <h3>Plumbing Services</h3>
-<p>Plumbing-specific services and imagery</p>
+<p>Pipes • Geysers • Drains • Leaks • Taps</p>
 </div>
 
 </div>
 
 
-<div class="service-grid">
-
+<div class="services-grid">
 
 <article class="service-card">
 
-<div class="service-photo">
-
 <img
-src="https://images.pexels.com/photos/32588548/pexels-photo-32588548.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt="Plumber repairing pipe with wrench"
-loading="lazy">
-
-</div>
+src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=900&q=80"
+alt="Professional plumber repairing plumbing pipe">
 
 <div class="service-body">
-
-<div class="service-icon">🔧</div>
 
 <h4>Emergency Plumbing</h4>
 
 <p>
-Emergency assistance for leaking pipes,
-burst pipes, valves and plumbing problems.
+Assistance with leaking pipes, burst pipes, valves and urgent plumbing problems.
 </p>
 
 <a class="service-link"
-href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20emergency%20plumbing."
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20emergency%20plumbing%20assistance."
 target="_blank">
 Request Plumbing Help →
 </a>
@@ -1311,28 +1074,20 @@ Request Plumbing Help →
 
 <article class="service-card">
 
-<div class="service-photo">
-
 <img
-src="https://images.pexels.com/photos/7859953/pexels-photo-7859953.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt="Plumbing maintenance and boiler repair"
-loading="lazy">
-
-</div>
+src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=900&q=80"
+alt="Geyser and plumbing maintenance">
 
 <div class="service-body">
-
-<div class="service-icon">🚿</div>
 
 <h4>Geyser Services</h4>
 
 <p>
-Assistance with geyser problems, leaks,
-maintenance and installation enquiries.
+Geyser problems, leaks, maintenance and installation enquiries.
 </p>
 
 <a class="service-link"
-href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20geyser%20assistance."
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20help%20with%20a%20geyser."
 target="_blank">
 Ask About Geysers →
 </a>
@@ -1344,24 +1099,16 @@ Ask About Geysers →
 
 <article class="service-card">
 
-<div class="service-photo">
-
 <img
-src="https://images.pexels.com/photos/9890450/pexels-photo-9890450.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt="Plumber repairing water faucet"
-loading="lazy">
-
-</div>
+src="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=900&q=80"
+alt="Plumber repairing leaking tap">
 
 <div class="service-body">
-
-<div class="service-icon">💧</div>
 
 <h4>Leaks & Taps</h4>
 
 <p>
-Assistance with leaking taps, water connections,
-valves and pipe leaks.
+Leaking taps, water connections, valves and pipe leak enquiries.
 </p>
 
 <a class="service-link"
@@ -1377,28 +1124,20 @@ Report a Leak →
 
 <article class="service-card">
 
-<div class="service-photo">
-
 <img
-src="https://images.pexels.com/photos/16509869/pexels-photo-16509869.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt="Plumbing pipe repair"
-loading="lazy">
-
-</div>
+src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=900&q=80"
+alt="Bathroom plumbing and blocked drain">
 
 <div class="service-body">
-
-<div class="service-icon">🚽</div>
 
 <h4>Blocked Drains & Toilets</h4>
 
 <p>
-Assistance with blocked drains, toilets,
-pipes and water-flow problems.
+Assistance with blocked drains, toilets, pipes and water-flow problems.
 </p>
 
 <a class="service-link"
-href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20have%20a%20blocked%20drain."
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20help%20with%20a%20blocked%20drain%20or%20toilet."
 target="_blank">
 Request Assistance →
 </a>
@@ -1409,48 +1148,43 @@ Request Assistance →
 
 </div>
 
+</div>
 
-<!-- ================= ELECTRICAL SERVICES ================= -->
+
+<!-- ELECTRICAL -->
+
+<div class="category">
 
 <div class="category-title">
 
-<div class="category-icon">⚡</div>
+<div class="icon">⚡</div>
 
 <div>
 <h3>Electrical Services</h3>
-<p>Electrical-specific services and imagery</p>
+<p>Faults • Wiring • Panels • Maintenance</p>
 </div>
 
 </div>
 
 
-<div class="service-grid">
-
+<div class="services-grid">
 
 <article class="service-card">
 
-<div class="service-photo">
-
 <img
-src="https://images.pexels.com/photos/27928761/pexels-photo-27928761.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt="Electrician repairing electrical panel"
-loading="lazy">
-
-</div>
+src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=900&q=80"
+alt="Electrician working on electrical panel">
 
 <div class="service-body">
-
-<div class="service-icon">⚡</div>
 
 <h4>Electrical Fault Finding</h4>
 
 <p>
-Assistance with electrical faults,
-tripping circuits and electrical problems.
+Assistance with electrical faults, tripping circuits and electrical problems.
 </p>
 
 <a class="service-link"
-href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20electrical%20fault%20assistance."
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20electrical%20fault%20finding."
 target="_blank">
 Request Electrical Help →
 </a>
@@ -1462,28 +1196,20 @@ Request Electrical Help →
 
 <article class="service-card">
 
-<div class="service-photo">
-
 <img
-src="https://images.pexels.com/photos/21812143/pexels-photo-21812143.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt="Electrician checking electrical wiring"
-loading="lazy">
-
-</div>
+src="https://images.unsplash.com/photo-1555963966-b7ae5406b6a5?auto=format&fit=crop&w=900&q=80"
+alt="Electrician working with wiring">
 
 <div class="service-body">
-
-<div class="service-icon">🔌</div>
 
 <h4>Wiring & Electrical Work</h4>
 
 <p>
-Electrical wiring, control panels and
-general electrical maintenance enquiries.
+Electrical wiring, control panels and general electrical maintenance enquiries.
 </p>
 
 <a class="service-link"
-href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20electrical%20wiring%20assistance."
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20electrical%20wiring%20or%20maintenance."
 target="_blank">
 Discuss Electrical Work →
 </a>
@@ -1495,24 +1221,16 @@ Discuss Electrical Work →
 
 <article class="service-card">
 
-<div class="service-photo">
-
 <img
-src="https://images.pexels.com/photos/34054464/pexels-photo-34054464.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt="Electrician testing electrical panel with multimeter"
-loading="lazy">
-
-</div>
+src="https://images.unsplash.com/photo-1620283085068-5d7a7f8d9d25?auto=format&fit=crop&w=900&q=80"
+alt="Electrician testing electrical equipment">
 
 <div class="service-body">
-
-<div class="service-icon">🔎</div>
 
 <h4>Electrical Inspection</h4>
 
 <p>
-Electrical troubleshooting, testing and
-maintenance enquiries for properties.
+Electrical troubleshooting, testing and maintenance enquiries for properties.
 </p>
 
 <a class="service-link"
@@ -1527,48 +1245,43 @@ Request Inspection →
 
 </div>
 
+</div>
 
-<!-- ================= PROPERTY SERVICES ================= -->
+
+<!-- PROPERTY -->
+
+<div class="category">
 
 <div class="category-title">
 
-<div class="category-icon">🏠</div>
+<div class="icon">🏠</div>
 
 <div>
 <h3>Property Maintenance</h3>
-<p>Property repair, handyman and maintenance imagery</p>
+<p>Repairs • Handyman • Building Maintenance</p>
 </div>
 
 </div>
 
 
-<div class="service-grid">
-
+<div class="services-grid">
 
 <article class="service-card">
 
-<div class="service-photo">
-
 <img
-src="https://images.pexels.com/photos/5691668/pexels-photo-5691668.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt="Handyman repairing property"
-loading="lazy">
-
-</div>
+src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=900&q=80"
+alt="Handyman repairing property">
 
 <div class="service-body">
-
-<div class="service-icon">🔨</div>
 
 <h4>General Property Repairs</h4>
 
 <p>
-General repair and handyman assistance
-for residential and commercial properties.
+General repair and handyman assistance for residential and commercial properties.
 </p>
 
 <a class="service-link"
-href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20property%20repair%20assistance."
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20property%20repairs."
 target="_blank">
 Request Repairs →
 </a>
@@ -1580,24 +1293,16 @@ Request Repairs →
 
 <article class="service-card">
 
-<div class="service-photo">
-
 <img
-src="https://images.pexels.com/photos/37623618/pexels-photo-37623618.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt="Worker repairing residential property"
-loading="lazy">
-
-</div>
+src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=900&q=80"
+alt="Building maintenance and property work">
 
 <div class="service-body">
-
-<div class="service-icon">🏠</div>
 
 <h4>Building Maintenance</h4>
 
 <p>
-Maintenance and repair assistance for
-residential and commercial properties.
+Maintenance and repair assistance for residential and commercial properties.
 </p>
 
 <a class="service-link"
@@ -1613,24 +1318,16 @@ Discuss Maintenance →
 
 <article class="service-card">
 
-<div class="service-photo">
-
 <img
-src="https://images.pexels.com/photos/37623618/pexels-photo-37623618.jpeg?auto=compress&cs=tinysrgb&w=1200"
-alt="Property repair and maintenance worker"
-loading="lazy">
-
-</div>
+src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80"
+alt="Property maintenance and repairs">
 
 <div class="service-body">
-
-<div class="service-icon">🛠️</div>
 
 <h4>Maintenance & Repairs</h4>
 
 <p>
-Practical maintenance assistance for
-property repair and improvement needs.
+Practical maintenance assistance for property repair and improvement needs.
 </p>
 
 <a class="service-link"
@@ -1647,69 +1344,291 @@ Request Maintenance →
 
 </div>
 
+</div>
+
 </section>
 
 
-<!-- ================= GALLERY ================= -->
+<!-- WATERPROOFING -->
+
+<section class="waterproofing-section" id="waterproofing">
+
+<div class="container">
+
+<div class="section-head">
+
+<div class="eyebrow" style="color:#ff3030;">
+NEW SERVICE
+</div>
+
+<h2>💧 Waterproofing Services</h2>
+
+<p>
+Protect your property from water penetration, roof leaks, damp areas
+and moisture-related damage.
+</p>
+
+</div>
+
+
+<div class="waterproofing-intro">
+
+<div class="waterproofing-image">
+
+<img
+src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=1200&q=85"
+alt="Professional waterproofing and building maintenance work">
+
+</div>
+
+
+<div class="waterproofing-content">
+
+<h3>Stop Water Before It Causes More Damage</h3>
+
+<p>
+Lee provides waterproofing service enquiries for roofs, walls,
+bathrooms, balconies and other areas where water penetration or
+leaks may be a problem.
+</p>
+
+<ul class="waterproofing-list">
+
+<li>Roof Waterproofing</li>
+<li>Roof Leak Repairs</li>
+<li>Wall Waterproofing</li>
+<li>Damp Protection</li>
+<li>Bathroom Waterproofing</li>
+<li>Shower Waterproofing</li>
+<li>Balcony Waterproofing</li>
+<li>Crack Sealing</li>
+<li>Joint Sealing</li>
+<li>Water Penetration Repairs</li>
+
+</ul>
+
+<a class="btn btn-red"
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20a%20waterproofing%20service.%20My%20property%20has%20a%20water%20leak%2Fdamp%20problem."
+target="_blank">
+💧 Request Waterproofing Quote
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- WATERPROOFING SERVICE CARDS -->
+
+<section>
+
+<div class="container">
+
+<div class="section-head">
+
+<div class="eyebrow">Waterproofing</div>
+
+<h2>Waterproofing Solutions</h2>
+
+<p>
+Tell us where water is entering or where dampness is occurring.
+Send photos on WhatsApp where possible.
+</p>
+
+</div>
+
+
+<div class="services-grid">
+
+<article class="service-card">
+
+<img
+src="https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=900&q=80"
+alt="Roof waterproofing and roof repair">
+
+<div class="service-body">
+
+<h4>🏠 Roof Waterproofing</h4>
+
+<p>
+Waterproofing enquiries for roofs affected by leaks, rainwater penetration and moisture.
+</p>
+
+<a class="service-link"
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20roof%20waterproofing."
+target="_blank">
+Request Roof Waterproofing →
+</a>
+
+</div>
+
+</article>
+
+
+<article class="service-card">
+
+<img
+src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80"
+alt="Bathroom waterproofing">
+
+<div class="service-body">
+
+<h4>🚿 Bathroom Waterproofing</h4>
+
+<p>
+Waterproofing enquiries for bathrooms, showers and areas affected by moisture.
+</p>
+
+<a class="service-link"
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20bathroom%20or%20shower%20waterproofing."
+target="_blank">
+Request Bathroom Waterproofing →
+</a>
+
+</div>
+
+</article>
+
+
+<article class="service-card">
+
+<img
+src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=900&q=80"
+alt="Wall damp and waterproofing repair">
+
+<div class="service-body">
+
+<h4>🧱 Wall Waterproofing & Damp</h4>
+
+<p>
+Assistance with damp areas, wall water penetration, cracks and moisture problems.
+</p>
+
+<a class="service-link"
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20wall%20waterproofing%20or%20damp%20protection."
+target="_blank">
+Request Wall Waterproofing →
+</a>
+
+</div>
+
+</article>
+
+
+<article class="service-card">
+
+<img
+src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80"
+alt="Balcony waterproofing and property maintenance">
+
+<div class="service-body">
+
+<h4>🏢 Balcony Waterproofing</h4>
+
+<p>
+Waterproofing enquiries for balconies, terraces and exposed areas.
+</p>
+
+<a class="service-link"
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20balcony%20waterproofing."
+target="_blank">
+Request Balcony Waterproofing →
+</a>
+
+</div>
+
+</article>
+
+
+<article class="service-card">
+
+<img
+src="https://images.unsplash.com/photo-1599619585752-c3edb42a414c?auto=format&fit=crop&w=900&q=80"
+alt="Roof leak repair">
+
+<div class="service-body">
+
+<h4>🌧️ Roof Leak Repairs</h4>
+
+<p>
+Identify and address roof leak problems before water damage becomes worse.
+</p>
+
+<a class="service-link"
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20have%20a%20roof%20leak."
+target="_blank">
+Report Roof Leak →
+</a>
+
+</div>
+
+</article>
+
+
+<article class="service-card">
+
+<img
+src="https://images.unsplash.com/photo-1531835551805-16d864c8d311?auto=format&fit=crop&w=900&q=80"
+alt="Building crack sealing and repair">
+
+<div class="service-body">
+
+<h4>🔨 Crack & Joint Sealing</h4>
+
+<p>
+Water can enter through cracks, joints and damaged areas. Send photos for assessment.
+</p>
+
+<a class="service-link"
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20crack%20or%20joint%20sealing."
+target="_blank">
+Request Assistance →
+</a>
+
+</div>
+
+</article>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- GALLERY -->
 
 <section class="gallery" id="gallery">
 
 <div class="container">
 
-<div class="section-heading">
+<div class="section-head">
 
-<div class="tag">Our Work Categories</div>
+<div class="eyebrow">Our Work Categories</div>
 
-<h2>Plumbing • Electrical • Property Maintenance</h2>
+<h2>Plumbing • Electrical • Waterproofing • Property</h2>
 
 <p>
-The gallery is separated so customers can immediately see
-the type of service they are looking for.
+See the types of services Lee can assist with.
 </p>
 
 </div>
 
-
-<!-- PLUMBING GALLERY -->
-
-<div class="gallery-section">
-
-<div class="gallery-heading">
-
-<h3>🔧 Plumbing Gallery</h3>
-
-<p>
-Pipes, taps, geysers and plumbing repair work.
-</p>
-
-</div>
 
 <div class="gallery-grid">
 
-
 <div class="gallery-item">
 
 <img
-src="https://images.pexels.com/photos/32588548/pexels-photo-32588548.jpeg?auto=compress&cs=tinysrgb&w=1400"
-alt="Plumber repairing pipe"
-loading="lazy">
+src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=1000&q=80"
+alt="Plumbing pipe repair">
 
-<div class="gallery-caption">
-<strong>Pipe Repairs</strong>
-</div>
-
-</div>
-
-
-<div class="gallery-item">
-
-<img
-src="https://images.pexels.com/photos/7859953/pexels-photo-7859953.jpeg?auto=compress&cs=tinysrgb&w=1400"
-alt="Plumbing maintenance"
-loading="lazy">
-
-<div class="gallery-caption">
-<strong>Geyser & Plumbing Maintenance</strong>
+<div class="gallery-label">
+🔧 Pipe & Plumbing Repairs
 </div>
 
 </div>
@@ -1718,47 +1637,11 @@ loading="lazy">
 <div class="gallery-item">
 
 <img
-src="https://images.pexels.com/photos/9890450/pexels-photo-9890450.jpeg?auto=compress&cs=tinysrgb&w=1400"
-alt="Plumber repairing faucet"
-loading="lazy">
+src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1000&q=80"
+alt="Electrical repair">
 
-<div class="gallery-caption">
-<strong>Tap & Faucet Repairs</strong>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-
-<!-- ELECTRICAL GALLERY -->
-
-<div class="gallery-section">
-
-<div class="gallery-heading">
-
-<h3>⚡ Electrical Gallery</h3>
-
-<p>
-Electrical panels, wiring, testing and electrical maintenance.
-</p>
-
-</div>
-
-<div class="gallery-grid">
-
-
-<div class="gallery-item">
-
-<img
-src="https://images.pexels.com/photos/27928761/pexels-photo-27928761.jpeg?auto=compress&cs=tinysrgb&w=1400"
-alt="Electrician repairing electrical panel"
-loading="lazy">
-
-<div class="gallery-caption">
-<strong>Electrical Panel Work</strong>
+<div class="gallery-label">
+⚡ Electrical Work
 </div>
 
 </div>
@@ -1767,12 +1650,11 @@ loading="lazy">
 <div class="gallery-item">
 
 <img
-src="https://images.pexels.com/photos/21812143/pexels-photo-21812143.jpeg?auto=compress&cs=tinysrgb&w=1400"
-alt="Electrician checking wiring"
-loading="lazy">
+src="https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=1000&q=80"
+alt="Roof waterproofing">
 
-<div class="gallery-caption">
-<strong>Wiring & Electrical Work</strong>
+<div class="gallery-label">
+💧 Roof Waterproofing
 </div>
 
 </div>
@@ -1781,47 +1663,11 @@ loading="lazy">
 <div class="gallery-item">
 
 <img
-src="https://images.pexels.com/photos/34054464/pexels-photo-34054464.jpeg?auto=compress&cs=tinysrgb&w=1400"
-alt="Electrician testing electrical panel"
-loading="lazy">
+src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=80"
+alt="Wall waterproofing and damp repair">
 
-<div class="gallery-caption">
-<strong>Electrical Testing</strong>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-
-<!-- PROPERTY MAINTENANCE GALLERY -->
-
-<div class="gallery-section">
-
-<div class="gallery-heading">
-
-<h3>🏠 Property Maintenance Gallery</h3>
-
-<p>
-Handyman repairs, building maintenance and property improvement.
-</p>
-
-</div>
-
-<div class="gallery-grid">
-
-
-<div class="gallery-item">
-
-<img
-src="https://images.pexels.com/photos/5691668/pexels-photo-5691668.jpeg?auto=compress&cs=tinysrgb&w=1400"
-alt="Handyman repairing wall"
-loading="lazy">
-
-<div class="gallery-caption">
-<strong>Handyman Repairs</strong>
+<div class="gallery-label">
+🧱 Wall Waterproofing & Damp
 </div>
 
 </div>
@@ -1830,12 +1676,11 @@ loading="lazy">
 <div class="gallery-item">
 
 <img
-src="https://images.pexels.com/photos/37623618/pexels-photo-37623618.jpeg?auto=compress&cs=tinysrgb&w=1400"
-alt="Worker repairing residential property"
-loading="lazy">
+src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1000&q=80"
+alt="Property maintenance">
 
-<div class="gallery-caption">
-<strong>Property Repairs</strong>
+<div class="gallery-label">
+🏠 Property Maintenance
 </div>
 
 </div>
@@ -1844,14 +1689,11 @@ loading="lazy">
 <div class="gallery-item">
 
 <img
-src="https://images.pexels.com/photos/5691668/pexels-photo-5691668.jpeg?auto=compress&cs=tinysrgb&w=1400"
-alt="Property maintenance worker"
-loading="lazy">
+src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=80"
+alt="Building maintenance">
 
-<div class="gallery-caption">
-<strong>Maintenance Work</strong>
-</div>
-
+<div class="gallery-label">
+🏗️ Building Maintenance
 </div>
 
 </div>
@@ -1863,35 +1705,41 @@ loading="lazy">
 </section>
 
 
-<!-- ================= EMERGENCY ================= -->
+<!-- EMERGENCY CTA -->
 
 <section class="emergency">
 
-<div class="container">
-
-<div class="emergency-box">
+<div class="container emergency-inner">
 
 <div>
 
 <h2>Property Emergency?</h2>
 
 <p>
-A leaking pipe, electrical problem or urgent property
-repair can become a bigger problem. Contact Lee to discuss
-the assistance you need.
+A leaking pipe, roof leak, water penetration, electrical problem
+or urgent property repair can become a bigger problem. Contact Lee
+and explain what is happening.
 </p>
 
 </div>
 
-<div class="buttons">
+<div class="emergency-box">
 
-<a class="btn btn-white"
+<strong>068 868 5355</strong>
+
+<p>
+Call or WhatsApp and send photos where useful.
+</p>
+
+<br>
+
+<a class="btn btn-red"
 href="tel:+27688685355">
 📞 Call Now
 </a>
 
-<a class="btn btn-outline"
-href="https://wa.me/27688685355?text=URGENT%3A%20I%20need%20emergency%20property%20assistance."
+<a class="btn btn-whatsapp"
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20have%20an%20emergency%20property%20problem."
 target="_blank">
 💬 WhatsApp
 </a>
@@ -1900,93 +1748,65 @@ target="_blank">
 
 </div>
 
-</div>
-
 </section>
 
 
-<!-- ================= ABOUT ================= -->
+<!-- ABOUT -->
 
-<section class="about" id="about">
+<section id="about">
 
-<div class="container">
-
-<div class="about-grid">
-
+<div class="container about-grid">
 
 <div class="about-image">
 
 <img
-src="https://images.pexels.com/photos/5691668/pexels-photo-5691668.jpeg?auto=compress&cs=tinysrgb&w=1600"
-alt="Professional property maintenance worker"
-loading="lazy">
+src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=85"
+alt="Property maintenance and construction work">
 
 </div>
 
 
 <div class="about-text">
 
-<div class="tag">About Lee</div>
+<div class="eyebrow">
+About Lee
+</div>
 
-<h2>One Contact For Multiple Property Needs</h2>
+<h2>
+One Contact For Multiple Property Needs
+</h2>
 
 <p>
-Lee Emergency Plumbing, Electrical & Property Maintenance
-provides assistance across three main service categories:
-plumbing, electrical and property maintenance.
+Lee Emergency Plumbing, Electrical & Property Maintenance provides
+assistance across plumbing, electrical, waterproofing and property
+maintenance service categories.
 </p>
 
 <p>
-Whether you have a plumbing leak, an electrical problem or
-a general property repair requirement, contact us and
-describe the problem.
+Whether you have a plumbing leak, electrical problem, roof leak,
+damp problem, waterproofing requirement or general property repair,
+contact us and describe the problem.
 </p>
 
 <ul class="check-list">
 
-<li>
-<span class="check">✓</span>
-Emergency plumbing assistance
-</li>
-
-<li>
-<span class="check">✓</span>
-Geyser and water-related services
-</li>
-
-<li>
-<span class="check">✓</span>
-Electrical fault and maintenance enquiries
-</li>
-
-<li>
-<span class="check">✓</span>
-General property repairs
-</li>
-
-<li>
-<span class="check">✓</span>
-Residential and commercial enquiries
-</li>
+<li>Emergency plumbing assistance</li>
+<li>Geyser and water-related services</li>
+<li>Electrical fault and maintenance enquiries</li>
+<li>Roof and property waterproofing enquiries</li>
+<li>Wall and bathroom waterproofing</li>
+<li>General property repairs</li>
+<li>Residential and commercial enquiries</li>
 
 </ul>
 
-<div class="buttons">
+<br>
 
 <a class="btn btn-red"
-href="tel:+27688685355">
-📞 068 868 5355
-</a>
-
-<a class="btn btn-outline"
-href="https://wa.me/27688685355"
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20would%20like%20a%20service%20quote."
 target="_blank">
-💬 WhatsApp
+💬 Request a Quote
 </a>
-
-</div>
-
-</div>
 
 </div>
 
@@ -1995,31 +1815,30 @@ target="_blank">
 </section>
 
 
-<!-- ================= WHY ================= -->
+<!-- WHY -->
 
 <section class="why">
 
 <div class="container">
 
-<div class="section-heading">
+<div class="section-head">
 
-<div class="tag">Why Contact Lee</div>
+<div class="eyebrow">Why Contact Lee</div>
 
-<h2>Three Service Areas. One Contact.</h2>
+<h2>Multiple Property Services. One Contact.</h2>
 
 <p>
-Get in touch directly and explain what is happening at your
-property.
+Get in touch directly and explain what is happening at your property.
 </p>
 
 </div>
 
-<div class="why-grid">
 
+<div class="why-grid">
 
 <div class="why-card">
 
-<div class="why-number">01</div>
+<div class="number">01</div>
 
 <h3>Plumbing</h3>
 
@@ -2032,7 +1851,7 @@ Leaks, blocked drains, taps, pipes and geyser enquiries.
 
 <div class="why-card">
 
-<div class="why-number">02</div>
+<div class="number">02</div>
 
 <h3>Electrical</h3>
 
@@ -2045,12 +1864,12 @@ Electrical faults, panels, wiring and maintenance enquiries.
 
 <div class="why-card">
 
-<div class="why-number">03</div>
+<div class="number">03</div>
 
-<h3>Property</h3>
+<h3>Waterproofing</h3>
 
 <p>
-General repairs, handyman work and property maintenance.
+Roof leaks, damp areas, wall, bathroom and balcony waterproofing enquiries.
 </p>
 
 </div>
@@ -2058,12 +1877,12 @@ General repairs, handyman work and property maintenance.
 
 <div class="why-card">
 
-<div class="why-number">04</div>
+<div class="number">04</div>
 
-<h3>Gauteng</h3>
+<h3>Property</h3>
 
 <p>
-Serving selected residential and commercial areas across Gauteng.
+General repairs, handyman work and property maintenance.
 </p>
 
 </div>
@@ -2075,26 +1894,30 @@ Serving selected residential and commercial areas across Gauteng.
 </section>
 
 
-<!-- ================= PROCESS ================= -->
+<!-- PROCESS -->
 
-<section class="process">
+<section>
 
 <div class="container">
 
-<div class="section-heading">
+<div class="section-head">
 
-<div class="tag">How It Works</div>
+<div class="eyebrow">How It Works</div>
 
 <h2>Simple Service Process</h2>
 
+<p>
+Contact Lee, explain the problem and arrange the required service.
+</p>
+
 </div>
+
 
 <div class="process-grid">
 
+<div class="process-card">
 
-<div class="step">
-
-<div class="step-number">1</div>
+<div class="process-number">1</div>
 
 <h3>Contact Lee</h3>
 
@@ -2105,9 +1928,9 @@ Call or WhatsApp 068 868 5355.
 </div>
 
 
-<div class="step">
+<div class="process-card">
 
-<div class="step-number">2</div>
+<div class="process-number">2</div>
 
 <h3>Explain the Problem</h3>
 
@@ -2118,22 +1941,22 @@ Describe the problem and your location.
 </div>
 
 
-<div class="step">
+<div class="process-card">
 
-<div class="step-number">3</div>
+<div class="process-number">3</div>
 
 <h3>Send Photos</h3>
 
 <p>
-Where useful, send photos through WhatsApp.
+For leaks, waterproofing and property problems, send photos where useful.
 </p>
 
 </div>
 
 
-<div class="step">
+<div class="process-card">
 
-<div class="step-number">4</div>
+<div class="process-number">4</div>
 
 <h3>Arrange Service</h3>
 
@@ -2150,15 +1973,17 @@ Discuss the required work and next steps.
 </section>
 
 
-<!-- ================= AREAS ================= -->
+<!-- AREAS -->
 
 <section class="areas" id="areas">
 
 <div class="container">
 
-<div class="section-heading">
+<div class="section-head">
 
-<div class="tag">Service Areas</div>
+<div class="eyebrow" style="color:#ff3030;">
+Service Areas
+</div>
 
 <h2>Serving Selected Areas Across Gauteng</h2>
 
@@ -2168,24 +1993,25 @@ Contact us with your exact location to confirm availability.
 
 </div>
 
-<div class="area-list">
 
-<span class="area">Johannesburg</span>
-<span class="area">Pretoria</span>
-<span class="area">Midrand</span>
-<span class="area">Centurion</span>
-<span class="area">Ekurhuleni</span>
-<span class="area">Kempton Park</span>
-<span class="area">Benoni</span>
-<span class="area">Boksburg</span>
-<span class="area">Edenvale</span>
-<span class="area">Germiston</span>
-<span class="area">Alberton</span>
-<span class="area">Sandton</span>
-<span class="area">Randburg</span>
-<span class="area">Roodepoort</span>
-<span class="area">Soweto</span>
-<span class="area">Tembisa</span>
+<div class="area-tags">
+
+<span class="area-tag">Johannesburg</span>
+<span class="area-tag">Pretoria</span>
+<span class="area-tag">Midrand</span>
+<span class="area-tag">Centurion</span>
+<span class="area-tag">Ekurhuleni</span>
+<span class="area-tag">Kempton Park</span>
+<span class="area-tag">Benoni</span>
+<span class="area-tag">Boksburg</span>
+<span class="area-tag">Edenvale</span>
+<span class="area-tag">Germiston</span>
+<span class="area-tag">Alberton</span>
+<span class="area-tag">Sandton</span>
+<span class="area-tag">Randburg</span>
+<span class="area-tag">Roodepoort</span>
+<span class="area-tag">Soweto</span>
+<span class="area-tag">Tembisa</span>
 
 </div>
 
@@ -2194,30 +2020,31 @@ Contact us with your exact location to confirm availability.
 </section>
 
 
-<!-- ================= FAQ ================= -->
+<!-- FAQ -->
 
-<section class="faq" id="faq">
+<section id="faq">
 
 <div class="container">
 
-<div class="section-heading">
+<div class="section-head">
 
-<div class="tag">FAQ</div>
+<div class="eyebrow">FAQ</div>
 
 <h2>Frequently Asked Questions</h2>
 
 </div>
 
-<div class="faq-list">
 
+<div class="faq">
 
 <details>
 
-<summary>Do you provide emergency plumbing assistance?</summary>
+<summary>
+Do you provide emergency plumbing assistance?
+</summary>
 
 <p>
-Yes. Contact 068 868 5355 and explain the plumbing
-problem and your location.
+Yes. Contact 068 868 5355 and explain the plumbing problem and your location.
 </p>
 
 </details>
@@ -2225,11 +2052,12 @@ problem and your location.
 
 <details>
 
-<summary>Do you assist with leaking pipes?</summary>
+<summary>
+Do you assist with leaking pipes?
+</summary>
 
 <p>
-Yes. Contact us regarding leaking pipes, taps,
-water connections and related plumbing problems.
+Yes. Contact us regarding leaking pipes, taps, water connections, valves and related plumbing problems.
 </p>
 
 </details>
@@ -2237,11 +2065,12 @@ water connections and related plumbing problems.
 
 <details>
 
-<summary>Do you assist with geysers?</summary>
+<summary>
+Do you assist with geysers?
+</summary>
 
 <p>
-Yes. Contact us regarding geyser problems, leaks,
-maintenance and installation enquiries.
+Yes. Contact us regarding geyser problems, leaks, maintenance and installation enquiries.
 </p>
 
 </details>
@@ -2249,11 +2078,12 @@ maintenance and installation enquiries.
 
 <details>
 
-<summary>Do you provide electrical services?</summary>
+<summary>
+Do you provide electrical services?
+</summary>
 
 <p>
-Electrical service enquiries include fault finding,
-electrical panels, wiring and maintenance.
+Electrical service enquiries include fault finding, electrical panels, wiring and maintenance.
 </p>
 
 </details>
@@ -2261,11 +2091,14 @@ electrical panels, wiring and maintenance.
 
 <details>
 
-<summary>Do you provide property maintenance?</summary>
+<summary>
+Do you provide waterproofing?
+</summary>
 
 <p>
-Yes. Contact us regarding general property repairs,
-handyman work and maintenance requirements.
+Yes. Waterproofing enquiries include roof waterproofing, roof leak repairs,
+wall waterproofing, damp protection, bathroom and shower waterproofing,
+balcony waterproofing, crack sealing and joint sealing.
 </p>
 
 </details>
@@ -2273,12 +2106,13 @@ handyman work and maintenance requirements.
 
 <details>
 
-<summary>Which areas do you cover?</summary>
+<summary>
+Do you waterproof roofs?
+</summary>
 
 <p>
-We serve selected areas across Gauteng including
-Johannesburg, Pretoria, Midrand, Centurion and Ekurhuleni.
-Contact us with your location to confirm availability.
+Yes. Contact Lee regarding roof leaks and roof waterproofing requirements.
+Send photographs of the affected area on WhatsApp where possible.
 </p>
 
 </details>
@@ -2286,11 +2120,71 @@ Contact us with your location to confirm availability.
 
 <details>
 
-<summary>Can I send photos on WhatsApp?</summary>
+<summary>
+Do you assist with damp walls?
+</summary>
 
 <p>
-Yes. Photos can help us understand the problem before
-discussing the required service.
+Yes. Contact us regarding damp areas and possible water penetration.
+Photos can help us understand the problem before discussing the required work.
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+Do you waterproof bathrooms and showers?
+</summary>
+
+<p>
+Yes. Contact us regarding bathroom and shower waterproofing enquiries,
+especially where water is penetrating surrounding walls or floors.
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+Do you provide property maintenance?
+</summary>
+
+<p>
+Yes. Contact us regarding general property repairs, handyman work,
+building maintenance and property improvement requirements.
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+Which areas do you cover?
+</summary>
+
+<p>
+We serve selected areas across Gauteng including Johannesburg,
+Pretoria, Midrand, Centurion and Ekurhuleni. Contact us with your
+location to confirm availability.
+</p>
+
+</details>
+
+
+<details>
+
+<summary>
+Can I send photos on WhatsApp?
+</summary>
+
+<p>
+Yes. Photos can help us understand plumbing leaks, roof leaks,
+waterproofing problems, electrical problems and general property
+maintenance requirements before discussing the service.
 </p>
 
 </details>
@@ -2302,30 +2196,30 @@ discussing the required service.
 </section>
 
 
-<!-- ================= CTA ================= -->
+<!-- FINAL CTA -->
 
-<section class="cta">
+<section class="final-cta">
 
 <div class="container">
 
-<div class="cta-box">
-
-<h2>Need Plumbing, Electrical or Property Maintenance?</h2>
+<h2>
+Need Plumbing, Electrical, Waterproofing or Property Maintenance?
+</h2>
 
 <p>
-Call or WhatsApp Lee today and tell us what is happening
-at your property.
+Call or WhatsApp Lee today and tell us what is happening at your property.
+For waterproofing or leak problems, send photos where possible.
 </p>
 
-<div class="buttons" style="justify-content:center;">
+<div class="hero-buttons" style="justify-content:center;">
 
 <a class="btn btn-red"
 href="tel:+27688685355">
-📞 Call 068 868 5355
+📞 068 868 5355
 </a>
 
-<a class="btn btn-white"
-href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20would%20like%20to%20request%20a%20service%20quote."
+<a class="btn btn-whatsapp"
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20would%20like%20a%20quote."
 target="_blank">
 💬 Request a Quote
 </a>
@@ -2334,12 +2228,10 @@ target="_blank">
 
 </div>
 
-</div>
-
 </section>
 
 
-<!-- ================= FOOTER ================= -->
+<!-- FOOTER -->
 
 <footer>
 
@@ -2347,28 +2239,25 @@ target="_blank">
 
 <div class="footer-grid">
 
+<div>
 
-<div class="footer-brand">
-
-<div class="logo">
-
-<div class="logo-icon">L</div>
-
-<div class="logo-text">
-
-<strong>LEE EMERGENCY</strong>
-
-<small>
-PLUMBING • ELECTRICAL • PROPERTY MAINTENANCE
-</small>
-
-</div>
-
-</div>
+<h3>
+LEE EMERGENCY PLUMBING • ELECTRICAL • WATERPROOFING
+</h3>
 
 <p>
-Emergency plumbing, electrical and property maintenance
-services across Gauteng.
+Emergency plumbing, electrical, waterproofing and property
+maintenance service enquiries across selected areas of Gauteng.
+</p>
+
+<br>
+
+<p>
+📞 068 868 5355
+</p>
+
+<p>
+📍 Gauteng, South Africa
 </p>
 
 </div>
@@ -2378,12 +2267,15 @@ services across Gauteng.
 
 <h3>Services</h3>
 
-<ul class="footer-links">
+<ul>
 
-<li><a href="#services">Plumbing</a></li>
-<li><a href="#services">Electrical</a></li>
-<li><a href="#services">Property Maintenance</a></li>
-<li><a href="#gallery">Gallery</a></li>
+<li><a href="#services">🔧 Plumbing</a></li>
+<li><a href="#services">⚡ Electrical</a></li>
+<li><a href="#waterproofing">💧 Waterproofing</a></li>
+<li><a href="#waterproofing">🏠 Roof Waterproofing</a></li>
+<li><a href="#waterproofing">🧱 Wall Waterproofing</a></li>
+<li><a href="#waterproofing">🚿 Bathroom Waterproofing</a></li>
+<li><a href="#services">🏠 Property Maintenance</a></li>
 
 </ul>
 
@@ -2394,7 +2286,7 @@ services across Gauteng.
 
 <h3>Contact</h3>
 
-<ul class="footer-links">
+<ul>
 
 <li>
 <a href="tel:+27688685355">
@@ -2403,13 +2295,24 @@ services across Gauteng.
 </li>
 
 <li>
-<a href="https://wa.me/27688685355"
+<a
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20a%20service."
 target="_blank">
-💬 WhatsApp
+💬 WhatsApp Lee
 </a>
 </li>
 
-<li>📍 Gauteng, South Africa</li>
+<li>
+<a href="#areas">
+📍 Gauteng
+</a>
+</li>
+
+<li>
+<a href="#faq">
+❓ FAQ
+</a>
+</li>
 
 </ul>
 
@@ -2420,15 +2323,8 @@ target="_blank">
 
 <div class="footer-bottom">
 
-<span>
-© <span id="year"></span>
-Lee Emergency Plumbing, Electrical & Property Maintenance.
-All rights reserved.
-</span>
-
-<span>
-Gauteng • South Africa
-</span>
+© 2026 Lee Emergency Plumbing, Electrical & Property Maintenance.
+All rights reserved. Gauteng • South Africa.
 
 </div>
 
@@ -2437,78 +2333,108 @@ Gauteng • South Africa
 </footer>
 
 
-<!-- ================= FLOATING WHATSAPP ================= -->
+<!-- FLOATING WHATSAPP -->
 
 <a
-class="whatsapp"
-href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20assistance."
+class="whatsapp-float"
+href="https://wa.me/27688685355?text=Hello%20Lee%2C%20I%20need%20help%20with%20a%20property%20service."
 target="_blank"
-aria-label="Contact Lee on WhatsApp">
-
-<svg viewBox="0 0 32 32">
-
-<path d="M19.11 17.33c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.14-.42-2.17-1.34-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.42.12-.55.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27s.98 2.63 1.11 2.81c.14.18 1.92 2.93 4.65 4.11.65.28 1.16.45 1.56.58.66.21 1.26.18 1.73.11.53-.08 1.6-.65 1.82-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"/>
-
-<path d="M16.02 3.2c-7.08 0-12.83 5.75-12.83 12.83 0 2.26.59 4.46 1.72 6.4L3.07 28.8l6.52-1.71a12.8 12.8 0 0 0 6.43 1.74h.01c7.08 0 12.83-5.76 12.83-12.83S23.1 3.2 16.02 3.2zm0 23.35h-.01a10.5 10.5 0 0 1-5.35-1.46l-.38-.23-3.87 1.02 1.03-3.77-.25-.39a10.48 10.48 0 1 1 8.83 4.83z"/>
-
-</svg>
-
+aria-label="WhatsApp Lee">
+💬
 </a>
 
 
 <script>
 
-/* MOBILE MENU */
-
 function toggleMenu(){
 
-    document
-    .getElementById("navLinks")
-    .classList
-    .toggle("active");
+    const nav = document.getElementById("mainNav");
 
-}
-
-function closeMenu(){
-
-    document
-    .getElementById("navLinks")
-    .classList
-    .remove("active");
+    nav.classList.toggle("show");
 
 }
 
 
-/* YEAR */
+/* Close mobile menu after clicking a link */
 
-document.getElementById("year").textContent =
-new Date().getFullYear();
+document.querySelectorAll("#mainNav a").forEach(function(link){
+
+    link.addEventListener("click", function(){
+
+        document.getElementById("mainNav").classList.remove("show");
+
+    });
+
+});
 
 
-/* CLOSE MENU WHEN CLICKING OUTSIDE */
+/* Prevent broken behaviour if images temporarily fail */
 
-document.addEventListener("click",function(event){
+document.querySelectorAll("img").forEach(function(img){
 
-    const nav =
-    document.getElementById("navLinks");
+    img.addEventListener("error", function(){
 
-    const button =
-    document.querySelector(".menu");
+        this.style.background="#222";
 
-    if(
-        nav.classList.contains("active") &&
-        !nav.contains(event.target) &&
-        !button.contains(event.target)
-    ){
+        this.alt="Lee Emergency Plumbing, Electrical, Waterproofing & Property Maintenance";
 
-        nav.classList.remove("active");
-
-    }
+    });
 
 });
 
 </script>
 
+
+<!-- STRUCTURED DATA FOR GOOGLE -->
+
+<script type="application/ld+json">
+
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"Lee Emergency Plumbing, Electrical & Property Maintenance",
+  "url":"https://lee-png-maker.github.io/Lee-emergency-plumbing-electric-and-maintenance-/",
+  "telephone":"+27688685355",
+  "description":"Emergency plumbing, electrical, waterproofing and property maintenance service enquiries across selected areas of Gauteng.",
+  "areaServed":[
+    "Johannesburg",
+    "Pretoria",
+    "Midrand",
+    "Centurion",
+    "Ekurhuleni",
+    "Kempton Park",
+    "Benoni",
+    "Boksburg",
+    "Edenvale",
+    "Germiston",
+    "Alberton",
+    "Sandton",
+    "Randburg",
+    "Roodepoort",
+    "Soweto",
+    "Tembisa"
+  ],
+  "serviceType":[
+    "Emergency Plumbing",
+    "Plumbing Services",
+    "Geyser Services",
+    "Electrical Services",
+    "Electrical Fault Finding",
+    "Roof Waterproofing",
+    "Roof Leak Repairs",
+    "Wall Waterproofing",
+    "Damp Protection",
+    "Bathroom Waterproofing",
+    "Shower Waterproofing",
+    "Balcony Waterproofing",
+    "Crack Sealing",
+    "Property Maintenance",
+    "Building Maintenance",
+    "General Property Repairs"
+  ]
+}
+
+</script>
 
 </body>
 </html>
